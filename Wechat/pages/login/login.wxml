@@ -1,0 +1,8 @@
+
+<form bindsubmit="formSubmit">
+    <view class="container">
+        <input name="userName" type="text" class="myInput" placeholder="请输入用户名" value="{{userName}}" />
+        <input name="userPass" type="text" class="myInput" placeholder="请输入密码" value="{{userPass}}" />
+        <button formType="submit">记住我</button>
+    </view>
+</form>
